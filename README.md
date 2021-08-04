@@ -1,24 +1,5 @@
-# COMP2511 Major Project: Loop Mania
+# JavaFX-game-Loop-Mania
 
-[**Link to specification**](https://gitlab.cse.unsw.edu.au/COMP2511/21T2/project-specification)
-<br />
-<br />
-<br />
-<br />
-
-## Link to UML lucidchart
-https://lucid.app/lucidchart/5c188d42-305c-4cab-977f-56f8734a6a87/edit?shared=true&page=HWEp-vi-RSFO# 
-<br />
-<br />
-
-## Java Coverage Tester
-https://cgi.cse.unsw.edu.au/~cs2511/21T2/coverage/UI/app.py
-
-Use this web app, very use ful
-
-And the group name is:  T15A_AERO
-<br />
-<br />
 
 ## Installing JavaFX on your own system
 
@@ -59,4 +40,4 @@ If running locally make sure that you've followed the steps above.  If running o
 ```
 
 It's just VSCode creating new configurations rather than recycling the old ones.  This seems 
-# JavaFX-game-Loop-Mania
+
