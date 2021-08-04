@@ -2,11 +2,8 @@
 *.log
 hs_err_pid*
 /bin/
-/lib/
+
 /build/
 /.gradle/
 .DS_Store
-*.jar
-*.dylib
-*.zip
-*.properties
+
