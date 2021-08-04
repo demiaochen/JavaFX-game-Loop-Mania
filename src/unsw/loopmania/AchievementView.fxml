@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane>
+         <children>
+            <ImageView fitHeight="401.0" fitWidth="601.0" opacity="0.65">
+               <image>
+                  <Image url="@../../images/achievement.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="507.0" layoutY="374.0" mnemonicParsing="false" onAction="#switchToGame" text="Back to Game" />
+            <ImageView fx:id="trophyKillImage" fitHeight="100.0" fitWidth="160.0" layoutX="55.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="trophyBossImage" fitHeight="100.0" fitWidth="160.0" layoutX="235.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="trophyGoldImage" fitHeight="100.0" fitWidth="160.0" layoutX="235.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="trophyLoopsImage" fitHeight="100.0" fitWidth="160.0" layoutX="413.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="trophyDoggieImage" fitHeight="100.0" fitWidth="160.0" layoutX="55.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="180.0" layoutY="14.0" prefHeight="52.0" prefWidth="250.0" text="Trophies Collecion" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8881579041481018" green="0.2631579041481018" blue="0.8777412176132202" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.9364690184593201" green="0.9802631735801697" blue="0.10437986999750137" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+            <Label layoutX="46.0" layoutY="189.0" text="Enemies Killer">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.5899999737739563" green="1.0" blue="0.5929285883903503" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="250.0" layoutY="189.0" text="Millionaire">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.5899999737739563" green="1.0" blue="0.5929285883903503" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7265015840530396" green="0.9539473652839661" blue="0.044164229184389114" opacity="0.8199999928474426" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="427.0" layoutY="189.0" text="LOOPS!" textFill="#ff46a5d1">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="341.0" text="Doincoin Holder">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.5899999737739563" green="1.0" blue="0.5929285883903503" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="243.0" layoutY="341.0" text="Elan's Head" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
