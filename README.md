@@ -38,6 +38,3 @@ If running locally make sure that you've followed the steps above.  If running o
 ```json
 "vmArgs": "--module-path ./lib/symlink_javafx --add-modules javafx.controls,javafx.fxml,javafx.media -enableassertions"
 ```
-
-It's just VSCode creating new configurations rather than recycling the old ones.  This seems 
-
