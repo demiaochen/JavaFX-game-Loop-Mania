@@ -1,5 +1,5 @@
 # JavaFX-game-Loop-Mania
-
+A simple strategy game with nice BGM and sound effect.
 
 ## Installing JavaFX on your own system
 
@@ -30,11 +30,3 @@ https://gluonhq.com/products/javafx/
 Note that if you deviate from this precise directory structure, you may need to modify the VSCode configuration in [*launch.json*](.vscode/launch.json) to be able to run the game in VSCode.
 
 If these steps worked (and you setup java, and the recommended VSCode extensions properly), you should be able to run the starter code game.
-
-## `JavaFX Runtime Components are missing`
-
-If running locally make sure that you've followed the steps above.  If running on VLab/CSE, then make sure that ALL launch configurations in `.vscode/launch.json` contain the line;
-
-```json
-"vmArgs": "--module-path ./lib/symlink_javafx --add-modules javafx.controls,javafx.fxml,javafx.media -enableassertions"
-```
